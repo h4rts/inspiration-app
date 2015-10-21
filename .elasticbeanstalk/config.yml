@@ -1,0 +1,10 @@
+branch-defaults:
+  staging:
+    environment: insp-app-staging-env
+global:
+  application_name: inspiration-app
+  default_ec2_keyname: null
+  default_platform: PHP 5.6
+  default_region: ap-southeast-1
+  profile: eb-cli
+  sc: git
